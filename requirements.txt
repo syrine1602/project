@@ -3,4 +3,5 @@ numpy
 pillow
 opencv-python-headless
 joblib
-tensorflow==2.15.1
+scikit-learn
+tensorflow==2.13.1
