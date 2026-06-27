@@ -1,7 +1,6 @@
 streamlit
 numpy
+pillow
 opencv-python-headless
-tensorflow
-scikit-learn
 joblib
-Pillow
+tensorflow==2.15.1
