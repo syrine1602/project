@@ -103,6 +103,7 @@ else:
             face = cv2.resize(face,(224,224))
             if face is None:
                  st.error("No face detected!")
+                 st.stop()
             else:
                 
                 image_embedding=get_embedding(vgg_model,face)
